@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1d1d1f;
+}
+
+/* ---------------- NAVBAR ---------------- */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+header a ,header i {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.82;
+    transition: opacity 0.2s ease;
+}
+
+header a:hover,header i:hover {
+    opacity: 1;
+}
+
+.navbar img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    padding-top: 3px;
+}
+
+/* ---------------- BANNER ---------------- */
+.banner {
+    background: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 12px 14px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+/* ---------------- HERO ---------------- */
+.main {
+    text-align: center;
+}
+
+.hero-img {
+    background-color: #f5f5f7;
+    width: 100%;
+    height: 630px;
+    background-image: url("./assets/hero.jfif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* text alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: end; /* text vertically */
+    align-items: center;
+    color: white;
+    padding: 25px 20px;
+}
+
+.hero-text {
+    /* max-width: 600px; */
+}
+
+.hero-text h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #090909; 
+}
+
+.hero-text p {
+    font-size: 22px;
+    color: #000000; 
+    margin-bottom: 22px;
+}
+
+.button a {
+    background-color: #0071E3;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 12px 24px;
+    border-radius: 980px; 
+    display: inline-block;
+    opacity: 0.85;
+}
+    
+.button a:hover {
+    opacity: 2;
+    text-decoration: underline;
+}
