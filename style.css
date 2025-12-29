@@ -31,7 +31,8 @@ header {
     gap: 26px;
 }
 
-header a, header i {
+header a,
+header i {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
@@ -39,7 +40,8 @@ header a, header i {
     transition: opacity 0.2s ease;
 }
 
-header a:hover, header i:hover {
+header a:hover,
+header i:hover {
     opacity: 1;
 }
 
@@ -63,7 +65,8 @@ header a:hover, header i:hover {
 /* ===================== HERO SECTIONS ===================== */
 .main {
     text-align: center;
-    margin-bottom: 20px; /* gap between hero sections */
+    margin-bottom: 20px;
+    /* gap between hero sections */
 }
 
 .hero-img {
@@ -75,19 +78,40 @@ header a:hover, header i:hover {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: end; 
+    justify-content: end;
     align-items: center;
     color: white;
     padding: 25px 20px;
     margin-bottom: 15px;
 }
 
-.hero-1 { background-image: url("./assets/hero.jfif"); }
-.hero-2 { background-image: url("./assets/hero_iphone_family.jpg"); justify-content: start; }
-.hero-3 { background-image: url("./assets/hero_airpodspro_3.jfif"); justify-content: start; }
-.hero-4 { background-image: url("./assets/hero_apple_watch.jfif"); justify-content: start; }
-.hero-4 h1 img { width: 440px; height: 55px; }
-.hero-4 .hero-text p { margin-bottom: 2px; }
+.hero-1 {
+    background-image: url("./assets/hero.jfif");
+}
+
+.hero-2 {
+    background-image: url("./assets/hero_iphone_family.jpg");
+    justify-content: start;
+}
+
+.hero-3 {
+    background-image: url("./assets/hero_airpodspro_3.jfif");
+    justify-content: start;
+}
+
+.hero-4 {
+    background-image: url("./assets/hero_apple_watch.jfif");
+    justify-content: start;
+}
+
+.hero-4 h1 img {
+    width: 440px;
+    height: 55px;
+}
+
+.hero-4 .hero-text p {
+    margin-bottom: 2px;
+}
 
 .hero-text {
     max-width: 600px;
@@ -95,8 +119,18 @@ header a:hover, header i:hover {
     text-align: center;
 }
 
-.hero-text h1 { font-size: 42px; font-weight: 700; margin-bottom: 12px; color: #090909; }
-.hero-text p { font-size: 26px; color: #000000; margin-bottom: 14px; }
+.hero-text h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #090909;
+}
+
+.hero-text p {
+    font-size: 26px;
+    color: #000000;
+    margin-bottom: 14px;
+}
 
 /* ===================== BUTTONS ===================== */
 .button-group {
@@ -104,7 +138,7 @@ header a:hover, header i:hover {
     display: flex;
     gap: 10px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .button a {
@@ -113,7 +147,7 @@ header a:hover, header i:hover {
     text-decoration: none;
     font-size: 17px;
     padding: 12px 24px;
-    border-radius: 980px; 
+    border-radius: 980px;
     opacity: 0.85;
 }
 
@@ -123,11 +157,17 @@ header a:hover, header i:hover {
     border: 1px solid #0071E3;
     font-size: 15px;
     padding: 12px 24px;
-    border-radius: 980px; 
+    border-radius: 980px;
 }
 
-.button a:hover { opacity: 2; }
-.button-2 a:hover { background-color: #0071E3; color: white; }
+.button a:hover {
+    opacity: 2;
+}
+
+.button-2 a:hover {
+    background-color: #0071E3;
+    color: white;
+}
 
 /* ===================== GRID SECTION ===================== */
 .grid-container {
@@ -150,23 +190,51 @@ header a:hover, header i:hover {
 }
 
 /* Big Grid Items */
-.grid-1, .grid-2 { grid-column: span 1; grid-row: span 1; }
+.grid-1,
+.grid-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
 
 /* Small Grid Items */
-.grid-3, .grid-4, .grid-5, .grid-6 { grid-row: span 1; }
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6 {
+    grid-row: span 1;
+}
 
 /* Grid Background Images */
-.grid-1 { background-image: url("./assets/promo_ipad_air.jpg"); }
-.grid-2 { background-image: url("./assets/promo_macbook_air.jpg"); }
-.grid-3 { background-image: url("./assets/promo_ipad.jpg"); }
-.grid-4 { background-image: url("./assets/tile_homepod_mini.jpg"); }
-.grid-5 { background-image: url("./assets/promo_iphone_tradein.jpg"); }
-.grid-6 { background-image: url("./assets/promo_apple_card.jpg"); }
+.grid-1 {
+    background-image: url("./assets/promo_ipad_air.jpg");
+}
+
+.grid-2 {
+    background-image: url("./assets/promo_macbook_air.jpg");
+}
+
+.grid-3 {
+    background-image: url("./assets/promo_ipad.jpg");
+}
+
+.grid-4 {
+    background-image: url("./assets/tile_homepod_mini.jpg");
+}
+
+.grid-5 {
+    background-image: url("./assets/promo_iphone_tradein.jpg");
+}
+
+.grid-6 {
+    background-image: url("./assets/promo_apple_card.jpg");
+}
 
 /* ===================== FOOTER ===================== */
 .apple-footer {
-    background-color: #161617; /* Dark background */
-    color: #86868b; /* Muted gray text */
+    background-color: #161617;
+    /* Dark background */
+    color: #86868b;
+    /* Muted gray text */
     font-size: 12px;
     padding: 20px 22px;
     font-family: "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -200,7 +268,8 @@ header a:hover, header i:hover {
 }
 
 .footer-col h3 {
-    color: #f5f5f7; /* Heading color */
+    color: #f5f5f7;
+    /* Heading color */
     font-size: 12px;
     margin-bottom: 10px;
 }
@@ -256,12 +325,12 @@ header a:hover, header i:hover {
 
 /* Links inside text */
 .apple-footer a {
-    color:#bbbbbb;
+    color: #bbbbbb;
     text-decoration: none;
 }
 
 .apple-footer a:hover {
-    color: #0071E3  ;
+    color: #0071E3;
     text-decoration: underline;
 }
 
@@ -270,6 +339,7 @@ header a:hover, header i:hover {
     .footer-nav {
         flex-direction: column;
     }
+
     .legal-flex {
         flex-direction: column;
         gap: 10px;
